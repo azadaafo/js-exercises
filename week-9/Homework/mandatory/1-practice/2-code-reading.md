@@ -13,8 +13,9 @@ Take a look at the following code:
 6    console.log(x);
 ```
 
-Explain why line 4 and line 6 output different numbers.
-
+Explain why line 4 and line 6 output different numbers. 
+## line 4 has a local scope, so the value of x is 2. 
+## line 6 outpods 1 which is the value of x, and x is a global scope variable outside curly braces.
 ## Question 2
 
 Take a look at the following code:
@@ -32,12 +33,14 @@ console.log(f1())
 console.log(y)
 ```
 
-What will be the output of this code. Explain your answer in 50 words or less.
+## What will be the output of this code. Explain your answer in 50 words or less.
+## we get 10 because x is a global variable that can be accessed even within the function.
+## the function itself and y outpuds undefined because the call is made outside the function while y is not global variable.
 
 ## Question 3
 
 Take a look at the following code:
-
+## i need Mitch to explain this to me.
 ```
 const x = 9;
 
